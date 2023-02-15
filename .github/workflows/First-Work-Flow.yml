@@ -21,7 +21,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: PowerShell Command
-        run: get-directory
+        run: get-location
       - name: Bash Command
         run: PWD
         shell: bash
