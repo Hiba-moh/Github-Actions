@@ -19,6 +19,7 @@ jobs:
 
   Run-Windows-Commands:
     runs-on: windows-latest
+    needs: ["run-command-shell"]
     steps:
       - name: PowerShell Command
         run: get-location
