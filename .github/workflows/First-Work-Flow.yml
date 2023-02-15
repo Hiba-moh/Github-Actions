@@ -16,3 +16,11 @@ jobs:
           print
           (platform.processor())
         shell: python
+
+  Run-Windows-Commands:
+    runs-on: windows-latest
+    steps:
+      - name: PowerShell Command
+        run: Get-directory
+      - name: Bash Command
+        run: PWD
