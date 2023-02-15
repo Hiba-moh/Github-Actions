@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Echo string"
-        run: echo "Hello world"
+        run: eccho "Hello world"
       - name: "Multiline echo"
         run: |
           node -v
           npm -v
-          
+
