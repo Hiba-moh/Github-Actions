@@ -7,7 +7,7 @@ jobs:
       - name: simple jvascript action
         id: greet
 
-        uses: Hiba-moh/JavaScriptAction@V1
+        uses: Hiba-moh/JavaScriptAction@v1
         with:
           who-to-greet: Hiba
       - name: log greeting time
