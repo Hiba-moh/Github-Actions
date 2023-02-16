@@ -1,0 +1,14 @@
+name: First-Java-Actions
+on: [push]
+jobs:
+  First-Job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: simple jvascript action
+        id: greet
+
+        uses: Hiba-moh/JavaScriptAction@V1
+        with:
+          who-to-greet: Hiba
+      - name: log greeting time
+        run: echo "${{steps.greet.outputs.time}}"
