@@ -4,6 +4,10 @@ jobs:
   First-Job:
     runs-on: ubuntu-latest
     steps:
+      - name: files list
+        run: |
+          PWD
+          ls
       - name: simple jvascript action
         id: greet
 
