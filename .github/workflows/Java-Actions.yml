@@ -9,6 +9,6 @@ jobs:
 
         uses: Hiba-moh/JavaScriptAction@v1
         with:
-          who-to-greet: Hiba1
+          who-to-greet: Hiba
       - name: log greeting time
         run: print "${{steps.greet.outputs.time}}"
