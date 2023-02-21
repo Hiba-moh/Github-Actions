@@ -11,4 +11,4 @@ jobs:
         with:
           who-to-greet: Hiba
       - name: log greeting time
-        run: print "${{steps.greet.outputs.time}}"
+        run: echo "${{steps.greet.outputs.time}}"
