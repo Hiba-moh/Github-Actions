@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: files list
         run: |
-          PWD
+          pwd
           ls
       - name: simple jvascript action
         id: greet
